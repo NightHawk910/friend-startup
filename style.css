@@ -1,7 +1,6 @@
 html, body {
     background-image: url(images/train.jpg);
-    text-align: center;
-    width: 100%;
+     width: 100%;
     height: 900px;
     background-attachment: fixed;
     background-position: center;
@@ -92,4 +91,76 @@ html, body {
     position: absolute;
     left: -40px;
     top: 60px;
+}
+.container-1{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 400px;
+    gap: 200px;
+    height: 300px;
+}
+.plans{
+    display: flex;
+    background-image: url(images/plan.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-color: #c2c506;
+    font-size: medium;
+    margin-left: 50px;
+}
+.plans:hover {
+    display: flex;
+    background-image: url(images/plans.jpg);
+}
+.plans h2{
+    font-size: medium;
+    justify-content: baseline;
+     font-family: "Sofia", sans-serif;
+     
+}
+.places{
+    display: flex;
+    background-image: url(images/places.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-color: #c2c506;
+    font-size: medium;
+}
+.places:hover {
+    display: flex;
+    background-image: url(images/places2.jpg);
+    
+}
+.places h2{
+    font-size: medium;
+    justify-content: baseline;
+    font-family: "Sofia", sans-serif;
+    
+}
+.Apply{
+    display: flex;
+    background-image: url(images/ticket.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-color: #c2c506;
+    font-size: medium;
+}
+.Apply:hover {
+    display: flex;
+    background-image: url(images/ticket2.jpg);
+    
+}
+.Apply h2{
+    font-size: medium;
+    justify-content: baseline;
+    font-family: "Sofia", sans-serif;
+}
+.pic-1{
+    display: flex;
+    width: 2000px;
+    height: 700px;
+    padding-left: 140px;
 }
